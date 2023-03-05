@@ -4,4 +4,6 @@
     <string name="enter_radius">Введіть радіус</string>
     <string name="textView">Розрахунок площі кола</string>
     <string name="result_message">Результат:</string>
+    <string name="enter_side_value">Введіть довжину</string>
+    <string name="square_area_calc">Розрахунок площі квадрата</string>
 </resources>

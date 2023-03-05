@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#404258"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/square_header"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/square_area_calc"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:autoSizeTextType="none" />
+
+    <EditText
+        android:id="@+id/square_side_input"
+        android:layout_width="214dp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:autofillHints="no"
+        android:gravity="center"
+        android:hint="@string/enter_side_value"
+        android:inputType="number"
+        android:textColor="@android:color/white"
+        android:textColorHint="#6B728E"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/square_result_message"
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:layout_marginTop="20sp"
+        android:text="@string/result_message"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/square_result"
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:layout_marginTop="0sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/square_button_calc"
+        android:layout_width="202sp"
+        android:layout_height="64sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:text= "@string/calc"
+        app:iconTint="@color/black"
+        />
+
+</LinearLayout>
