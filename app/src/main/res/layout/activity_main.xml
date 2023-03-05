@@ -86,12 +86,10 @@
         android:background="#50577A"
         app:itemIconTint="@drawable/bottom_menu_selector"
         app:itemTextColor="#FFFFFF"
-        app:itemIconSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_menu"
-        app:labelVisibilityMode="unlabeled"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
