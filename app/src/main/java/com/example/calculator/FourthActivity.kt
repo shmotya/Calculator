@@ -50,7 +50,25 @@ class FourthActivity : AppCompatActivity() {
             true
         }
 
+        user_field_a = findViewById(R.id.triangle_a_side_input)
+        user_field_h = findViewById(R.id.triangle_h_input)
+        main_btn = findViewById(R.id.triangle_button_calc)
+        result_field = findViewById(R.id.triangle_result)
 
+        main_btn?.setOnClickListener {
+            if (user_field_a?.text?.toString()?.trim()?.equals("")!!)
+                Toast.makeText(this, "Введіть сторону a", Toast.LENGTH_SHORT).show()
+            else {
+                if (user_field_h?.text?.toString()?.trim()?.equals("")!!)
+                    Toast.makeText(this, "Введіть висоту", Toast.LENGTH_SHORT).show()
+                else {
+                    val a0 = user_field_a?.text.toString()
+                    val a = a0.toDouble()
+                    val h0 = user_field_h?.text.toString()
+                    val h = h0.toDouble()
+
+                    val s = (0.5 * a) * h
+                    result_field?.text = "S = $s"
 
                 }
             }

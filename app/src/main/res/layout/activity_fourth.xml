@@ -14,7 +14,7 @@
         android:layout_width="411dp"
         android:layout_height="57dp"
         android:layout_marginTop="20sp"
-        android:text="@string/rectangle_area_calc"
+        android:text="@string/triangle_area_calc"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="20sp"
@@ -105,10 +105,12 @@
         android:background="#50577A"
         app:itemIconTint="@drawable/bottom_menu_selector"
         app:itemTextColor="#FFFFFF"
+        app:itemIconSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_menu"
+        app:labelVisibilityMode="unlabeled"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
