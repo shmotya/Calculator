@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Calculator</string>
+    <string name="calc">Розрахувати</string>
+    <string name="enter_radius">Введіть радіус</string>
+    <string name="textView">Розрахунок площі кола</string>
+    <string name="result_message">Результат:</string>
 </resources>

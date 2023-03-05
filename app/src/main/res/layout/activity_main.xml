@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,36 +11,56 @@
     <TextView
         android:id="@+id/circle_header"
         android:layout_width="match_parent"
+        android:layout_height="35dp"
         android:layout_marginTop="20dp"
-        android:layout_height="50dp"
-        android:fontFamily="sans-serif"
-        android:textSize="20dp"
+        android:text="@string/textView"
         android:textAlignment="center"
-        android:text="Розрахунок площі кола"
         android:textColor="@android:color/white"
-        app:autoSizeTextType="none"
-        />
+        android:textSize="20sp"
+        app:autoSizeTextType="none" />
+
     <EditText
         android:id="@+id/circle_radius_input"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:fontFamily="sans-serif"
-        android:layout_gravity="center"
-        android:textSize="20dp"
         android:inputType="number"
-        android:hint="Введіть радіус"
-        android:textColorHint="#6B728E"
+        android:layout_width="150sp"
+        android:layout_height="50sp"
+        android:hint="@string/enter_radius"
+        android:layout_gravity="center"
         android:textColor="@android:color/white"
-        />
+        android:textColorHint="#6B728E"
+        android:textSize="20sp"
+        android:autofillHints="no" />
 
+    <TextView
+        android:id="@+id/circle_result_message"
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:layout_marginTop="20sp"
+        android:text="@string/result_message"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+ />
+
+    <TextView
+        android:id="@+id/circle_result"
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:layout_marginTop="0sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/circle_button_calc"
-        android:layout_width="202dp"
-        android:layout_height="64dp"
+        android:layout_width="202sp"
+        android:layout_height="64sp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:orientation="vertical"
-        android:text="Розрахувати" />
+        android:text= "@string/calc"
+        app:iconTint="@color/black"
+        />
 
 </LinearLayout>
