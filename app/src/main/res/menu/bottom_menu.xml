@@ -3,27 +3,27 @@
     <item
         android:id="@+id/circle_menu"
         android:icon="@drawable/circle"
-        android:title="@string/circle"
+        android:title=""
         android:orderInCategory="1"
         />
 
     <item
         android:id="@+id/square_menu"
         android:icon="@drawable/square"
-        android:title="@string/square"
+        android:title=""
         android:orderInCategory="2"
         />
 
     <item
         android:id="@+id/rectangle_menu"
         android:icon="@drawable/rectangle"
-        android:title="@string/rectangle"
+        android:title=""
         android:orderInCategory="3"
         />
     <item
         android:id="@+id/triangle_menu"
         android:icon="@drawable/triangle"
-        android:title="@string/triangle"
+        android:title=""
         android:orderInCategory="4"
         />
 

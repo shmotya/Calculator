@@ -17,4 +17,5 @@
     <string name="enter_b_side_value">Введіть довжину сторони b</string>
     <string name="triangle">Трикутник</string>
     <string name="enter_h_value">Введіть висоту</string>
+    <string name="triangle_area_calc">Розрахунок площі трикутника</string>
 </resources>
