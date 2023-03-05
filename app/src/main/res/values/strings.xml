@@ -6,4 +6,5 @@
     <string name="result_message">Результат:</string>
     <string name="enter_side_value">Введіть довжину</string>
     <string name="square_area_calc">Розрахунок площі квадрата</string>
+    <string name="square_next"><![CDATA[Квадрат ->]]></string>
 </resources>
