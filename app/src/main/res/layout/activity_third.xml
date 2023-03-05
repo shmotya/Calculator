@@ -1,74 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/linearLayout"
+    android:id="@+id/linearLayout3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#404258"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/circle_header"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/textView"
+        android:id="@+id/rectangle_header"
+        android:layout_width="411dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="20sp"
+        android:text="@string/rectangle_area_calc"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="20sp"
         app:autoSizeTextType="none"
-        app:layout_constraintBottom_toTopOf="@+id/circle_radius_input"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <EditText
-        android:id="@+id/circle_radius_input"
-        android:layout_width="151dp"
-        android:layout_height="51dp"
-        android:layout_marginBottom="20dp"
+        android:id="@+id/rectangle_a_side_input"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
         android:autofillHints="no"
-        android:hint="@string/enter_radius"
+        android:gravity="center"
+        android:hint="@string/enter_a_side_value"
         android:inputType="number"
         android:textColor="@android:color/white"
         android:textColorHint="#6B728E"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/circle_result_message"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/circle_header" />
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_header"
+        tools:ignore="MissingConstraints" />
+
+
 
     <TextView
-        android:id="@+id/circle_result_message"
+        android:id="@+id/rectangle_result_message"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginTop="20sp"
         android:gravity="center"
         android:text="@string/result_message"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/circle_result"
+        app:layout_constraintBottom_toTopOf="@+id/rectangle_result"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/circle_radius_input" />
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_b_side_input" />
 
     <TextView
-        android:id="@+id/circle_result"
+        android:id="@+id/rectangle_result"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="20dp"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/circle_button_calc"
+        app:layout_constraintBottom_toTopOf="@+id/rectangle_button_calc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/circle_result_message" />
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_result_message" />
 
     <Button
-        android:id="@+id/circle_button_calc"
+        android:id="@+id/rectangle_button_calc"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginBottom="301dp"
@@ -76,8 +79,7 @@
         app:iconTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/circle_result" />
-
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_result" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"

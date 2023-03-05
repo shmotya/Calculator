@@ -8,4 +8,11 @@
     <string name="square_area_calc">Розрахунок площі квадрата</string>
     <string name="square_next"><![CDATA[Квадрат ->]]></string>
     <string name="rectangle_next"><![CDATA[Прямокутник ->]]></string>
+    <string name="circ_prev"><![CDATA[<- Коло]]></string>
+    <string name="circle">Коло</string>
+    <string name="square">Квадрат</string>
+    <string name="rectangle">Прямокутник</string>
+    <string name="rectangle_area_calc">Розрахунок площі прямокутника</string>
+    <string name="enter_a_side_value">Введіть довжину сторони а</string>
+    <string name="enter_b_side_value">Введіть довжину сторони b</string>
 </resources>
