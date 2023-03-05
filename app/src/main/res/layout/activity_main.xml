@@ -70,6 +70,8 @@
         android:layout_gravity="end"
         android:layout_marginTop="300sp"
         android:layout_marginEnd="20sp"
+        android:backgroundTint="#6B728E"
+        android:textSize="11sp"
         android:orientation="vertical"
         android:text= "@string/square_next"
         app:iconTint="@color/black"

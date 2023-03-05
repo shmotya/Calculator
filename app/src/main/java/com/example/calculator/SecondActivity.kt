@@ -1,6 +1,7 @@
 package com.example.calculator
 
 import android.annotation.SuppressLint
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -12,6 +13,7 @@ class SecondActivity : AppCompatActivity() {
 
     private var user_field: EditText? = null
     private var main_btn: Button? = null
+
     private var result_field: TextView? = null
 
 
@@ -22,6 +24,7 @@ class SecondActivity : AppCompatActivity() {
 
         user_field = findViewById(R.id.square_side_input)
         main_btn = findViewById(R.id.square_button_calc)
+
         result_field = findViewById(R.id.square_result)
 
         main_btn?.setOnClickListener {
@@ -36,6 +39,8 @@ class SecondActivity : AppCompatActivity() {
 
             }
         }
+
+
 
 
     }

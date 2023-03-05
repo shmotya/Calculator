@@ -64,4 +64,17 @@
         app:iconTint="@color/black"
         />
 
+    <Button
+        android:id="@+id/square_button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_gravity="end"
+        android:layout_marginTop="300sp"
+        android:layout_marginEnd="20sp"
+        android:backgroundTint="#6B728E"
+        android:orientation="vertical"
+        android:text="@string/rectangle_next"
+        android:textSize="11sp"
+        app:iconTint="@color/black" />
+
 </LinearLayout>
