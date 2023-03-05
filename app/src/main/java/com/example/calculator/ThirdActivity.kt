@@ -39,6 +39,10 @@ class ThirdActivity : AppCompatActivity() {
                     val intent = Intent(this, ThirdActivity::class.java)
                     startActivity(intent)
                 }
+                R.id.triangle_menu -> {
+                    val intent = Intent(this, FourthActivity::class.java)
+                    startActivity(intent)
+                }
 
             }
             true

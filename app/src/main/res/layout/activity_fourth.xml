@@ -10,7 +10,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/rectangle_header"
+        android:id="@+id/triangle_header"
         android:layout_width="411dp"
         android:layout_height="57dp"
         android:layout_marginTop="20sp"
@@ -25,7 +25,7 @@
 
 
     <EditText
-        android:id="@+id/rectangle_a_side_input"
+        android:id="@+id/triangle_a_side_input"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:autofillHints="no"
@@ -37,28 +37,29 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rectangle_header"
+        app:layout_constraintTop_toBottomOf="@+id/triangle_header"
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/rectangle_b_side_input"
+        android:id="@+id/triangle_h_input"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
         android:autofillHints="no"
         android:gravity="center"
-        android:hint="@string/enter_b_side_value"
+        android:hint="@string/enter_h_value"
         android:inputType="number"
         android:textColor="@android:color/white"
         android:textColorHint="#6B728E"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rectangle_a_side_input"
+        app:layout_constraintTop_toBottomOf="@+id/triangle_a_side_input"
         tools:ignore="MissingConstraints" />
 
+
     <TextView
-        android:id="@+id/rectangle_result_message"
+        android:id="@+id/triangle_result_message"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="20sp"
@@ -67,27 +68,27 @@
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/rectangle_result"
+        app:layout_constraintBottom_toTopOf="@+id/triangle_result"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rectangle_b_side_input" />
+        app:layout_constraintTop_toBottomOf="@+id/triangle_h_input" />
 
     <TextView
-        android:id="@+id/rectangle_result"
+        android:id="@+id/triangle_result"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="20dp"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/rectangle_button_calc"
+        app:layout_constraintBottom_toTopOf="@+id/triangle_button_calc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rectangle_result_message" />
+        app:layout_constraintTop_toBottomOf="@+id/triangle_result_message" />
 
     <Button
-        android:id="@+id/rectangle_button_calc"
+        android:id="@+id/triangle_button_calc"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginBottom="301dp"
@@ -95,7 +96,7 @@
         app:iconTint="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rectangle_result" />
+        app:layout_constraintTop_toBottomOf="@+id/triangle_result" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
