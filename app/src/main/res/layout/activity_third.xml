@@ -39,7 +39,22 @@
         app:layout_constraintTop_toBottomOf="@+id/rectangle_header"
         tools:ignore="MissingConstraints" />
 
-
+    <EditText
+        android:id="@+id/rectangle_b_side_input"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints="no"
+        android:gravity="center"
+        android:hint="@string/enter_b_side_value"
+        android:inputType="number"
+        android:textColor="@android:color/white"
+        android:textColorHint="#6B728E"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_a_side_input"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/rectangle_result_message"
